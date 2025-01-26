@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <title>KPI 1D | Landing Page</title>
+</head>
+<body>
+    <div class="fixed w-full navbar bg-base-100 left-0 top-0 z-50">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about us">About Us</a></li>
+              <li><a href="#achivement">Achievement</a></li>
+              <li><a href="#memory">Memory</a></li>
+              <li><a href="#event">Event</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center" >
+          <div class="rounded-1xl shadow-lg p-6">
+            <div id="clock" class="text-2xl font-mono text-center"></div>
+          </div>
+        </div>
+        <div class="navbar-end">
+            <label class="swap swap-rotate px-4">
+                <!-- this hidden checkbox controls the state -->
+                <input type="checkbox" class="theme-controller" value="retro" />
+              
+                <!-- sun icon -->
+                <svg
+                  class="swap-off h-7 w-7 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+                </svg>
+              
+                <!-- moon icon -->
+                <svg
+                  class="swap-on h-7 w-7 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+                </svg>
+              </label>
+          <div class="avatar">
+            <div class="rounded-full" style="width: 40px; height: 40px;">
+              <img src="logo.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="text-center" style="min-height: 50vh;" id="home">
+        <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:items-center">
+          <div class="mx-auto max-w-3xl text-center">
+            <h1
+              class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">RASAKARSA IGNITERS</h1>
+      
+            <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+              <i>"Froam defeat we are able to rise with thousand of unlimited creativity.</i>
+              <br>
+              <b>Official website KPI 1D</b>
+            </p>
+
+            <div class="stats mx-auto max-w-screen-xl py-10 lg:flex lg:items-center" style="margin-top: 150px;">
+              <a href="#members">
+                <div class="stat place-items-center">
+                  <div class="stat-title">Members</div>
+                  <div class="stat-value">38</div>
+                </div></a>
+              
+                <div class="stat place-items-center">
+                  <div class="stat-title">SKS</div>
+                  <div class="stat-value">20</div>
+                </div>
+              
+              <a href="#achievement"></a>
+                <div class="stat place-items-center">
+                  <div class="stat-title">Achievement</div>
+                  <div class="stat-value text-secondary">4</div>
+                </div>
+              </div>
+      
+          </div>
+        </div>
+      </section>
+
+      <div id="about us">
+        <p class="first-letter:text-base-content text-justify first-letter:float-left first-letter:me-3 first-letter:text-7xl first-letter:font-bold first-line:uppercase first-line:tracking-widest px-7" >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ex animi maiores, eos modi labore earum ratione similique eum illum exercitationem minima accusantium veritatis sequi nemo recusandae totam commodi atque placeat ad! Sapiente placeat, repellendus quaerat eligendi recusandae minus omnis! Placeat, ut velit impedit alias pariatur qui in doloribus illum eveniet nesciunt deleniti sunt eos natus quaerat cupiditate. Repellat voluptatibus adipisci earum eveniet numquam quam molestias, deleniti ipsum maiores sint?
+        </p>
+      </div>
+      
+      <div class="w-full text-center">
+      <img src="photo1.png" class="w-full h-auto px-7">
+      </div>
+
+      <div>
+        <p class="first-letter:text-base-content text-justify first-letter:float-left first-letter:me-3 first-letter:text-7xl first-letter:font-bold first-line:uppercase first-line:tracking-widest px-7" >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam beatae tenetur numquam culpa dolores cum dolorum, recusandae, aspernatur exercitationem aut accusantium voluptate aperiam officia deserunt obcaecati officiis repellendus eveniet! Deserunt voluptatem ab molestias, nam ut quasi! Minus odio officiis sapiente dolor architecto dignissimos corrupti veniam impedit sit non, quaerat voluptatem assumenda laudantium animi molestiae sint explicabo fugiat inventore qui, ad sed. Fugiat velit accusantium ratione mollitia quam enim culpa! Alias.
+        </p>
+      </div>
+
+    <div class="max-w-screen-xl px-4 py-32 lg:items-center">
+      <div class="chat chat-start">
+        <div class="chat-header">
+          Woman
+        </div>
+        <div class="chat-bubble" style="margin: 3px 3px;">Hai cowo!!!</div>
+        <div class="chat-bubble" style="margin: 3px 3px;">GANTENG BANGETTT...!!</div>
+        <div class="chat-image avatar">
+          <div class="w-10 rounded-full">
+            <img
+              alt="Tailwind CSS chat bubble component"
+              src="woman.webp" />
+          </div>
+        </div>
+        <div class="chat-bubble" style="margin: 3px 3px;">Pasti anak UIN ya?</div>
+      </div>
+      <div class="chat chat-end">
+        <div class="chat-image avatar">
+          <div class="w-10 rounded-full">
+            <img
+              alt="Tailwind CSS chat bubble component"
+              src="man.webp" />
+          </div>
+        </div>
+        <div class="chat-header">
+          Man
+        </div>
+        <div class="chat-bubble">Hehehe... iya nich!</div>
+      </div>
+      <div class="chat chat-start">
+        <div class="chat-header">
+          Woman
+        </div>
+        <div class="chat-bubble" style="margin: 3px 3px;">UIN mana?</div>
+        <div class="chat-image avatar">
+          <div class="w-10 rounded-full">
+            <img
+              alt="Tailwind CSS chat bubble component"
+              src="woman.webp" />
+          </div>
+        </div>
+        <div class="chat-bubble" style="margin: 3px 3px;">Prodi apa?</div>
+      </div>
+      <div class="chat chat-end">
+        <div class="chat-header">
+          Man
+        </div>
+        <div class="chat-bubble">UIN SATU Tulungagung</div>
+        <div class="chat-image avatar">
+          <div class="w-10 rounded-full">
+            <img
+              alt="Tailwind CSS chat bubble component"
+              src="man.webp" />
+          </div>
+        </div>
+        <div class="chat-bubble" style="margin: 3px 3px;">Prodi Komunikasi dan Penyiaran Islam</div>
+      </div>
+    </div>
+
+    <div>
+      <p class="first-letter:text-base-content text-justify first-letter:float-left first-letter:me-3 first-letter:text-7xl first-letter:font-bold first-line:uppercase first-line:tracking-widest px-7" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quod dolore sint saepe veritatis labore, quos nemo sunt dolores voluptatibus minima recusandae repellat laboriosam et totam? Dolorem, molestiae esse minima atque neque accusantium reiciendis est ex earum repellat saepe deserunt nobis unde enim iure voluptatum veritatis ab alias laborum dicta ullam doloremque! Repellendus a fugiat quas eveniet culpa illum. Distinctio, mollitia illo rerum rem ratione debitis dicta voluptate culpa quisquam.
+      </p>
+    </div>
+
+    <div class="flex justify-center items-center mt-10"  id="members">
+      <p class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black text-4xl w-fit">
+        Member
+      </p>
+    </div>
+
+    <div class="overflow-x-auto px-7 py-7">
+      <table class="table">
+        <!-- head -->
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">AHMAD FIRMAN GANI</div>
+                  <div class="text-sm opacity-50">Blitar</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">ANANDA PUTRI NUR HASANNAH</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+             Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">ANGGER PRAMUJA</div>
+                  <div class="text-sm opacity-50">Lamongan</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Responsible Lecturer
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">ANISA NIHAYATA KILMA</div>
+                  <div class="text-sm opacity-50">Rejotangan</div>
+                </div>
+              </div>
+            </td>
+            <td>
+             Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">ANJUMI ZUHRIA ARTAFIFADI</div>
+                  <div class="text-sm opacity-50">Blitar</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">ASNA ULIL NGAZIZAH</div>
+                  <div class="text-sm opacity-50">Kediri</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">DEWI SAVVANAH NUR SHOFIA</div>
+                  <div class="text-sm opacity-50">Nganjuk</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">DIAN ATMA CAHYANI</div>
+                  <div class="text-sm opacity-50">Kediri</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">DINAR ANANDA PUTRI</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">ELLEN DWI ASTIKA RANI</div>
+                  <div class="text-sm opacity-50">Keidri</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Secretary
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">ENDINA PUTRI SHAVYRA</div>
+                  <div class="text-sm opacity-50">Tulungagung</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Responsible Lecturer
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">FADHILAH SALSA BELLA</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">FADNUR RACHIMADONA SEFIRA</div>
+                  <div class="text-sm opacity-50">Tulungagung</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">FARIDAH DARMA RENATA</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">GHUMAISHA NUR IKBAGTI</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">HILYA NIHLA NAFILA</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">INTAN DWI ASIANI</div>
+                  <div class="text-sm opacity-50">Nganjuk</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Responsible Lecturer
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">ISTA KHOLISATUN NAWA</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">KHARISMA NUR CHASANAH </div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">LADIKA FATIMA AZAHRO </div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">LAILATUL AZIZATI AHMAD</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">MA'RIFATUL NGADAWIYAH</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Responsible Lecturer
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">MOHAMAD DANDI RAMA WIJAYA</div>
+                  <div class="text-sm opacity-50">Tulungagung</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Responsible Lecturer
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">MUHAMAD AHSANUL WILDAN</div>
+                  <div class="text-sm opacity-50">Blitar</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Leader
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">MUHAMAD NOVANDA NUR HIDAYATULLAH</div>
+                  <div class="text-sm opacity-50">Jombang</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">MUHAMMAD IBNU ROJAB </div>
+                  <div class="text-sm opacity-50">Lamongan</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Responsible Lecturer
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">MUHAMMAD JABAR RAIHAN RAHMADI</div>
+                  <div class="text-sm opacity-50">Tulungagung</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">MUHAMMAD RUSDIAN NUZULA </div>
+                  <div class="text-sm opacity-50">Nganjuk</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">MUHAMMAD YOSSY CHOIRURRIZQI </div>
+                  <div class="text-sm opacity-50">Blitar</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">NAFI'ATUL KHULUD</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">NATASYA NUR EKI PRATIWI</div>
+                  <div class="text-sm opacity-50">Tulungagung</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Treasurer
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">NOVIA ANDRIANA </div>
+                  <div class="text-sm opacity-50">Tulungagung</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">NUNI NURHALIZA </div>
+                  <div class="text-sm opacity-50">Trenggalek</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">RESTI ANTIKA YULIANA</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">RIZKA AYU MAHARANI </div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">SALMA NURLAILIYA</div>
+                  <div class="text-sm opacity-50">-</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">SEPTIAN EKA PUTRA </div>
+                  <div class="text-sm opacity-50">Tulungagung</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Responsible Lecturer
+            </td>
+          </tr>
+          <!-- row  -->
+          <tr>
+            <td>
+              <div class="flex items-center gap-3">
+                <div class="avatar">
+                  <div class="mask mask-squircle h-12 w-12">
+                    <img
+                      src="unknown.jpg"
+                      alt="Avatar Tailwind CSS Component" />
+                  </div>
+                </div>
+                <div>
+                  <div class="font-bold">TRI WISNU DARMAWAN</div>
+                  <div class="text-sm opacity-50">Jakarta Timur</div>
+                </div>
+              </div>
+            </td>
+            <td>
+              Member
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="flex justify-center items-center mt-10"  id="achievement">
+      <p class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black text-4xl w-fit">
+        Achievement
+      </p>
+    </div>
+
+
+    <div class="overflow-x-auto py-10">
+      <div class="flex gap-4">
+        <!-- Foto 1 -->
+        <div class="min-w-[200px]">
+          <img
+            src="saveclip4.jpg"
+            alt="Foto 1"
+            class="rounded-lg shadow-md"
+          />
+        </div>
+        <!-- Foto 2 -->
+        <div class="min-w-[200px]">
+          <img
+            src="saveclip3.jpg"
+            alt="Foto 2"
+            class="rounded-lg shadow-md"
+          />
+        </div>
+        <!-- Foto 3 -->
+        <div class="min-w-[200px]">
+          <img
+            src="saveclip1.jpg"
+            alt="Foto 3"
+            class="rounded-lg shadow-md"
+          />
+        </div>
+        <!-- Foto 4 -->
+        <div class="min-w-[200px]">
+          <img
+            src="saveclip2.jpg"
+            alt="Foto 4"
+            class="rounded-lg shadow-md"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-center items-center mt-10"  id="memory">
+      <p class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black text-4xl w-fit">
+        Memory
+      </p>
+    </div>
+
+    <div class="overflow-x-auto py-4">
+      <div class="flex justify-center gap-4">
+        <div class="max-w-xs flex-shrink-0 bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="memory1 (1).jpg" alt="Foto 1" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <p class="text-gray-600">Kenangan semester 1 bersma bu Ajeng Fajarwati Sumarna, M.A,</p>
+          </div>
+        </div>
+        <div class="max-w-xs flex-shrink-0 bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="memory2.jpg" alt="Foto 2" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <p class="text-gray-600">Kenangan semester 1 bersma bu Fatimatuz Zahro </p>
+          </div>
+        </div>
+        <div class="max-w-xs flex-shrink-0 bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="memory3.jpg" alt="Foto 3" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <p class="text-gray-600">Kenangan semester 1 bersma pak Khadhikun Nuha</p>
+          </div>
+        </div>
+        <div class="max-w-xs flex-shrink-0 bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="memory4.jpg" alt="Foto 4" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <p class="text-gray-600">Kenangan semester 1 bersma pak Muhammad Ainun Najib, M,Fil,I</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="flex justify-center items-center mt-10"  id="event">
+      <p class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black text-4xl w-fit">
+        Event
+      </p>
+    </div>
+
+    <div class="overflow-x-auto py-4">
+      <div class="flex justify-center gap-4">
+        <div class="max-w-xs flex-shrink-0 bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="event1.jpg" alt="Foto 1" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <!-- <h2 class="text-lg font-semibold">Caption Foto 1</h2> -->
+            <p class="text-gray-600">Acara mahasiswa baru {KPI SOLID)</p>
+          </div>
+        </div>
+        <div class="max-w-xs flex-shrink-0 bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="event2.jpg" alt="Foto 2" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <!-- <h2 class="text-lg font-semibold">Caption Foto 2</h2> -->
+            <p class="text-gray-600">Holiday akhir semester di Pantai Mutiara Trenggalek</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer footer-center bg-primary text-primary-content p-10">
+      <aside>
+        <svg
+          width="50"
+          height="50"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          class="inline-block fill-current">
+          <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z"></path>
+        </svg>
+        <p>
+          Part of <a href="https://uinsatu.ac.id/" style="font-weight: bold;">UIN SATU Tulungagung</a>
+          <br>Jl. Mayor Sujadi Timur No. 46 Plosokandang, Kedungwaru, Tulungagung, Jawa Timur 66221
+        </p>
+        <p>Copyright © KPI-1D class - All right reserved</p>
+      </aside>
+      <nav>
+        <div class="grid grid-flow-col gap-4">
+          <a href="https://whatsapp.com/channel/0029VaobHNzEgGfLzNm8gP0v">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"></path>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/kpi.1d?igsh=MW1sYnFlM2NqMXJzNw==">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </footer>
+
+    
+    
+
+    <script>
+      function updateClock() {
+        const clockElement = document.getElementById('clock');
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        clockElement.textContent = `${hours}:${minutes}:${seconds}`;
+      }
+  
+      // Update the clock every second
+      setInterval(updateClock, 1000);
+      // Initialize the clock immediately
+      updateClock();
+    </script>
+
+    <!-- framework -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
